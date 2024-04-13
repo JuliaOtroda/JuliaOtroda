@@ -1,0 +1,47 @@
+86 - 23
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+true + 6
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+96 / true
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+57,99,34,83,67,51,62,7,82,81,43,26,78,4,87,50,78,44,76,47,10,37,64,37,1,61,65,55,59,43,55,8,58,90,64,60,81,34,7,40,50,48,89,87,39,28,41,44,56,4,43,13,91,83,76,67,30,45,39,59,25,33,62,0,0,20,83,13,33,97,70,78,87,31,55,81,98,52,35,47,20,92,61,40,6,15,60,38,96,0,35 + 79
+
+const squareRoot = num => Math.sqrt(num);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+orange
+
+const isEven = num => num % 2 === 0;
+orange * true
+
+const sum = (a, b) => a + b;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+console.log(getRandomString());
+true / 3,42,9,11,12,27,69,76,78,51,68,49,8,7,8,39,79,2,79,96,32,11,45,33,20,55,58,36,75,37,72,45,15,59,26,64,9,84,8,71,51,34,74,37,35,49,70,4,10,27,52,22,34,74,47,67,30,54,85,11,61,72,6,47,19,45,41,37,40,48,83,43,98,39,40,54
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+apple - 92
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+apple
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+kiwi
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+74 + grape
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
