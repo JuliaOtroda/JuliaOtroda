@@ -1,0 +1,56 @@
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+74,1,97,47,26,90,80,26,73,80,87,90,46,64,21,59,48,56,93,57,86,19,20,13,70,1,7,91,88,21,78,48,51,89,0,23,83,99,88,69,23,93,45,63,26,94,96,93,29,6,94,44,1,87,19,51,13,77,58,66,94,59,99,48,57,19,59,70,6,3,76,58,59,61,20,35,68,24,58,31,15,53,67,53,88,57,46,31,5,78,2,62,79,13,88,7,48 - apple
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const greet = name => `Hello, ${name}!`;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const findLargestNumber = numbers => Math.max(...numbers);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+// This is a comment
+true + 71,1,45,58,64,71,77,22,30,80,94,49,39,91,70,13,3,22,98,81,5,54,18,44,76,82,65
+const greet = name => `Hello, ${name}!`;
+orange
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+kiwi
+
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape / 93
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true / true
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+true + kiwi
+const variableName = getRandomNumber();
+grape
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+57,70,21,3,98,5,68,16,9,10,37,65,36,11,4,21,6,52,91,1,46,80,86,6,4,71,22,54,8,99,95,99,98,6,84,7,1,55,51,62,63,46,62,36,97,31,89,66,33,63,81,37,7,78,58,91,1,46,94,90,95,96,20,18,68,2,52,99,47,67,97,98,68,57,19,82,28 - 45
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana - 89,6,0,27,94,58,65,61,5,68,46,95,19,89,41,70,48,73,99,60,55,52,20,26,5,43,26
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const formatDate = date => new Date(date).toLocaleDateString();
+banana - kiwi
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
